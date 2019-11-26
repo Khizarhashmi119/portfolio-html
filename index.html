@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <meta name="author" content="Mohammad Khizar Hashmi">
+  <title>My Portfolio</title>
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Ubuntu|Gochi+Hand&display=swap" rel="stylesheet">
+  <!--google icon link-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- favicon link -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+  <section id="home">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#"><img class="navbar-img" src="images/photo.png" alt="Photo"></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation-bar" type="button" name="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation-bar">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-skills">My Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-projects">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </nav>
+
+      <div class="title">
+        <img class="cloud-1" src="images/cloud.png" alt="cloud-1">
+        <h1 class="title-heading">I'm Khizar.</h1>
+        <h5><strong>a full-stack web developer.</strong></h5>
+        <img class="cloud-2" src="images/cloud.png" alt="cloud-2">
+        <img class="amusement-park" src="images/amusement-park.png" alt="amusement-park">
+        <a href="#home"><button class="btn btn-sm btn-outline-dark btn-top" type="button"><i class="material-icons">arrow_upward</i></button></a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="about-me">
+
+    <div class="container-fluid">
+
+      <img class="photo" src="images/photo.png" alt="photo">
+      <h2 class="about-me-h2">Hello.</h2>
+      <h3>My name is Md. Khizar Hashmi.</h3>
+      <p class="about-me-p">I'm a full-stack web developer lives in Delhi, India.<br />I make web site, usually with PHP.<br />Feel free to take a look at my <a class="about-link" href="#my-projects">projects</a>.</p>
+      <a class="link" download href="Resume.pdf"><button class="btn btn-outline-dark btn-lg" type="button" name="button">Download My Resume</button></a>
+    </div>
+
+  </section>
+
+  <section id="my-skills">
+
+    <div class="container-fluid">
+
+      <h3 class="my-skills-h3">My Skills</h3>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 skills">
+          <div class="card">
+            <div class="card-header">
+              <h4>Frontend web development</h4>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li class="list">HTML (Hypertext markup language)</li>
+                <li class="list">CSS (cascading style sheet)</li>
+                <li class="list">Bootstrap</li>
+                <li class="list">W3.CSS</li>
+                <li class="list">Javascript</li>
+                <li class="list">JQuery</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skills">
+          <div class="card">
+            <div class="card-header">
+              <h4>Backend web development</h4>
+            </div>
+            <div class="body">
+              <ul>
+                <li class="list">PHP (Hypertext preprocessor)</li>
+                <li class="list">MySQL</li>
+                <li class="list">Node.js</li>
+                <li class="list">Express.js</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skills">
+          <div class="card">
+            <div class="card-header">
+              <h4>Programming</h4>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li class="list">C Programming</li>
+                <li class="list">C++ Programming</li>
+                <li class="list">Core Java</li>
+                <li class="list">Data Structures</li>
+                <li class="list">Algorithm design and its analysis</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 skills">
+          <div class="card">
+            <div class="card-header">
+              <h4>Version control system</h4>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li class="list">Git</li>
+                <li class="list">Github</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="my-projects">
+
+    <div class="container-fluid">
+
+      <h3>My Projects</h3>
+
+      <div class="carousel slide" id="carousel-1" data-ride="false">
+
+        <ol class="carousel-indicators">
+          <li data-target="carousel-1" data-slide-to="0" class="active"></li>
+          <li data-target="carousel-1" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item container-fluid active">
+            <h4><a class="proj-link" href="https://khizarhashmi119.github.io/tindog/" target="_blank">TinDog</a></h4>
+            <img class="screenshots" src="images/screenshots/tindog1.png" alt="tindog1">
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et quam elit. Duis a ante nisl. Quisque commodo nec dolor eu suscipit. In a accumsan augue, in lobortis nunc. Sed sollicitudin sem id porta scelerisque. Nullam at quam vel mauris imperdiet pharetra ut a dui. In dapibus vestibulum mi eu ornare. Praesent semper, nulla non finibus pellentesque, urna urna laoreet erat, vitae convallis enim tortor id lacus. Sed sed ante eget arcu volutpat ullamcorper. Suspendisse erat libero, consectetur hendrerit turpis in, pellentesque efficitur metus. Vivamus placerat dictum scelerisque. Quisque at pretium nisi, at imperdiet massa. Quisque a nisl ligula. Quisque tellus tortor, ornare vitae massa pretium, varius euismod lectus.</p> -->
+          </div>
+          <div class="carousel-item container-fluid">
+            <h4><a class="proj-link" href="https://afternoon-meadow-28412.herokuapp.com/" target="_blank">Newsletter Signup form</a></h4>
+            <img class="screenshots" src="images/screenshots/newsletter1.png" alt="newsletter1">
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et quam elit. Duis a ante nisl. Quisque commodo nec dolor eu suscipit. In a accumsan augue, in lobortis nunc. Sed sollicitudin sem id porta scelerisque. Nullam at quam vel mauris imperdiet pharetra ut a dui. In dapibus vestibulum mi eu ornare. Praesent semper, nulla non finibus pellentesque, urna urna laoreet erat, vitae convallis enim tortor id lacus. Sed sed ante eget arcu volutpat ullamcorper. Suspendisse erat libero, consectetur hendrerit turpis in, pellentesque efficitur metus. Vivamus placerat dictum scelerisque. Quisque at pretium nisi, at imperdiet massa. Quisque a nisl ligula. Quisque tellus tortor, ornare vitae massa pretium, varius euismod lectus.</p> -->
+          </div>
+        </div>
+        <a href="#carousel-1" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#carousel-1" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact-me">
+
+    <div class="container-fluid">
+      <a class="link" href="mailto:khizarhashmi119@gmail.com"><button class="btn btn-dark btn-lg btn-contact" type="button" name="button">Contact Me</button></a>
+      <div class="footer">
+
+        <a class="footer-link" target="_blank" href="https://github.com/khizarhashmi119">Github</a>
+        <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/khizarhashmi119/">LinkedIn</a>
+        <a class="footer-link" target="_blank" href="https://twitter.com/khizarhashmi119">Twitter</a>
+        <a class="footer-link" target="_blank" href="https://www.sololearn.com/Profile/11400061">Solo&nbsp;learn</a>
+        <p class="contact-p">© 2019 Md. Khizar Hashmi.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- bootstrap link -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

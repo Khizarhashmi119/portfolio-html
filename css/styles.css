@@ -1,0 +1,197 @@
+body {
+  font-family: "Merriweather", serif;
+  color: #3c3d47;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-family: "Ubuntu",sans-serif;
+}
+
+/* section 1 */
+
+#home {
+  background-color: #d35656;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+}
+
+.title-heading {
+  font-family: "Gochi Hand";
+  font-size: 5.625rem;
+  margin-top: 80px;
+}
+
+.btn-top {
+  bottom: 20px;
+  position: fixed;
+  right: 20px;
+  z-index: 1;
+}
+
+.navbar-img {
+  width: 5rem;
+}
+
+.nav-item {
+  padding: 0 1rem 0;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+}
+
+.cloud-1 {
+  margin: 30px 0;
+  position: absolute;
+  right: 300px;
+  top: -95px;
+}
+
+.cloud-2 {
+  margin: 30px 0;
+  position: absolute;
+  left: 300px;
+  top: 130px;
+}
+
+.amusement-park {
+  margin-top: 2.5rem;
+}
+
+
+@media (max-width: 696px) {
+  .amusement-park {
+    width: 100%;
+  }
+
+  .title-heading {
+    margin-top: 0;
+  }
+
+  .cloud-1, .cloud-2 {
+    position: static;
+    margin: 3rem auto;
+  }
+}
+
+#about-me {
+  background-color: #f9d5bb;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.photo {
+  margin: 0 0 2rem;
+}
+
+.about-me-h2 {
+  margin-bottom: 1rem;
+}
+
+.about-me-p {
+  line-height: 2;
+}
+
+.about-link {
+  color: #3c3d47;
+  text-decoration: underline;
+}
+
+.about-link:hover {
+  color: #3c3d47;
+  text-decoration: none;
+}
+
+#my-skills {
+  background-color: #f66767;
+  padding: 7% 5%;
+}
+
+.my-skills-h3 {
+  text-align: center;
+}
+
+.skills {
+  margin: 2rem 0;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px #3c3d47;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.list {
+  margin: 1rem 0;
+}
+
+#my-projects {
+  background-color: #f9d5bb;
+  padding: 7% 1%;
+  text-align: center;
+}
+
+.carousel-item h4 {
+  margin-top: 3%;
+}
+
+.carousel-item p {
+  margin-bottom: 5%;
+}
+
+.proj-link {
+  color: #3c3d47;
+}
+
+.proj-link:hover {
+  color: #d35656;
+}
+
+.screenshots {
+  border-radius: 5px;
+  margin: 3%;
+  width: 60%;
+}
+
+#contact-me {
+  background-color: #f66767;
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.btn-contact {
+  margin: 2rem 0;
+}
+
+.link {
+  color: #f9d5bb;
+}
+
+.link:hover {
+  color: #f9d5bb;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #3c3d47;
+  margin: 1rem;
+}
+
+.footer-link:hover {
+  color: #3c3d47;
+}
+
+.contact-p {
+  color: #f9d5bb;
+  font-size: 0.8rem;
+  margin: 2rem 0;
+}
