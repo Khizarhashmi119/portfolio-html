@@ -140,6 +140,10 @@ a {
   text-align: center;
 }
 
+.carousel-padding {
+  padding: 1% 5% 2%;
+}
+
 .carousel-item h4 {
   margin-top: 3%;
 }
@@ -157,28 +161,19 @@ a {
 }
 
 .screenshots {
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 3%;
-  width: 60%;
+  width: 800px;
 }
 
 #contact-me {
   background-color: #f66767;
-  padding: 3% 10%;
+  padding: 3% 5% 2%;
   text-align: center;
 }
 
-.btn-contact {
-  margin: 2rem 0;
-}
-
-.link {
-  color: #f9d5bb;
-}
-
-.link:hover {
-  color: #f9d5bb;
-  text-decoration: none;
+.footer {
+  padding: 2% 5% 0;
 }
 
 .footer-link {
@@ -187,11 +182,11 @@ a {
 }
 
 .footer-link:hover {
-  color: #3c3d47;
+  color: #000;
 }
 
 .contact-p {
   color: #f9d5bb;
-  font-size: 0.8rem;
-  margin: 2rem 0;
+  font-size: 0.6rem;
+  margin-top: 2rem;
 }
