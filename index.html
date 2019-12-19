@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Mohammad Khizar Hashmi">
   <title>My Portfolio</title>
   <!-- bootstrap link -->
@@ -23,48 +23,46 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="nav">
 
+    <a class="navbar-brand" href="#"><img class="navbar-img" src="images/photo.png" alt="Photo"></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation-bar" type="button" name="button">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+    <div class="collapse navbar-collapse" id="navigation-bar">
+
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-skills">My Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-projects">My Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-me">Contact Me</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
   <section id="home">
 
-    <div class="container-fluid">
+    <div class="title">
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-
-        <a class="navbar-brand" href="#"><img class="navbar-img" src="images/photo.png" alt="Photo"></a>
-
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation-bar" type="button" name="button">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navigation-bar">
-
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about-me">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#my-skills">My Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#my-projects">My Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-me">Contact Me</a>
-            </li>
-          </ul>
-
-        </div>
-
-      </nav>
-
-      <div class="title">
-        <img class="cloud-1" src="images/cloud.png" alt="cloud-1">
-        <h1 class="title-heading">I'm Khizar.</h1>
-        <h5><strong>a full-stack web developer.</strong></h5>
-        <img class="cloud-2" src="images/cloud.png" alt="cloud-2">
-        <img class="amusement-park" src="images/amusement-park.png" alt="amusement-park">
-        <a href="#home"><button class="btn btn-sm btn-outline-dark btn-top" type="button"><i class="material-icons">arrow_upward</i></button></a>
-      </div>
+      <img class="cloud-1" src="images/cloud.png" alt="cloud-1">
+      <h1 class="title-heading">I'm Khizar.</h1>
+      <h5><strong>a full-stack web developer.</strong></h5>
+      <img class="cloud-2" src="images/cloud.png" alt="cloud-2">
+      <img class="amusement-park" src="images/amusement-park.png" alt="amusement-park">
+      <a href="#home"><button class="btn btn-sm btn-outline-dark btn-top" type="button"><i class="material-icons">arrow_upward</i></button></a>
 
     </div>
 
@@ -79,6 +77,7 @@
       <h3>My name is Md. Khizar Hashmi.</h3>
       <p class="about-me-p">I'm a full-stack web developer lives in Delhi, India.<br />I make web applications usually with Node.js and Express.<br />Feel free to take a look at my <a class="about-link" href="#my-projects">projects</a>.</p>
       <a class="link" download href="Resume.pdf"><button class="btn btn-outline-dark btn-lg" type="button" name="button">Download My Resume</button></a>
+
     </div>
 
   </section>
@@ -88,33 +87,48 @@
     <div class="container-fluid">
 
       <h3 class="my-skills-h3">My Skills</h3>
-
       <div class="row">
 
         <div class="col-lg-3 col-md-6 skills">
+
           <div class="card">
+
             <div class="card-header">
+
               <h4>Frontend web development</h4>
+
             </div>
             <div class="card-body">
+
               <ul>
+
                 <li class="list">HTML (Hypertext markup language)</li>
                 <li class="list">CSS (cascading style sheet)</li>
                 <li class="list">Bootstrap</li>
                 <li class="list">W3.CSS</li>
                 <li class="list">Javascript</li>
                 <li class="list">JQuery</li>
+
               </ul>
+
             </div>
+
           </div>
+
         </div>
         <div class="col-lg-3 col-md-6 skills">
+
           <div class="card">
+
             <div class="card-header">
+
               <h4>Backend web development</h4>
+
             </div>
             <div class="body">
+
               <ul>
+
                 <li class="list">PHP (Hypertext preprocessor)</li>
                 <li class="list">MySQL</li>
                 <li class="list">Node.js</li>
@@ -122,38 +136,62 @@
                 <li class="list">EJS (Embeded Javascript)</li>
                 <li class="list">MongoDB</li>
                 <li class="list">Mongoose</li>
+
               </ul>
+
             </div>
+
           </div>
+
         </div>
         <div class="col-lg-3 col-md-6 skills">
+
           <div class="card">
+
             <div class="card-header">
+
               <h4>Programming</h4>
+
             </div>
             <div class="card-body">
+
               <ul>
+
                 <li class="list">C Programming</li>
                 <li class="list">C++ Programming</li>
                 <li class="list">Core Java</li>
                 <li class="list">Data Structures</li>
                 <li class="list">Algorithm design and its analysis</li>
+
               </ul>
+
             </div>
+
           </div>
+
         </div>
         <div class="col-lg-3 col-md-6 skills">
+
           <div class="card">
+
             <div class="card-header">
+
               <h4>Version control system</h4>
+
             </div>
             <div class="card-body">
+
               <ul>
+
                 <li class="list">Git</li>
                 <li class="list">Github</li>
+
               </ul>
+
             </div>
+
           </div>
+
         </div>
 
       </div>
@@ -171,35 +209,57 @@
       <div class="carousel slide" id="carousel-1" data-ride="false">
 
         <ol class="carousel-indicators">
+
           <li data-target="carousel-1" data-slide-to="0" class="active"></li>
           <li data-target="carousel-1" data-slide-to="1"></li>
           <li data-target="carousel-1" data-slide-to="2"></li>
+          <li data-target="carousel-1" data-slide-to="3"></li>
+
         </ol>
         <div class="carousel-inner">
+
           <div class="carousel-item carousel-padding active">
+
             <h4><a class="proj-link" href="https://khizarhashmi119.github.io/tindog/" target="_blank">TinDog</a></h4>
             <img class="screenshots" src="images/screenshots/tindog1.png" alt="tindog1">
             <h5>Technologies used</h5>
             <p>I made this project using HTML, CSS and Bootstrap. I also used google fonts and fontawesome icon in this project.</p>
+
           </div>
           <div class="carousel-item carousel-padding">
+
             <h4><a class="proj-link" href="#" target="_blank">Daily Tech Journal</a></h4>
             <img class="screenshots" src="images/screenshots/blog1.png" alt="blog1">
             <h5>Technologies used</h5>
             <p>I made the frontend of this Blog website using HTML, CSS, Bootstrap and Javascript. backend using node.js, express.js and EJS. database server using mongoDB and mongoose</p>
+
           </div>
           <div class="carousel-item carousel-padding">
+
+            <h4><a class="proj-link" href="#" target="_blank">Todo List</a></h4>
+            <img class="screenshots" src="images/screenshots/todo1.png" alt="todo1">
+            <h5>Technologies used</h5>
+            <p>I made the frontend of this Blog website using HTML, CSS, Bootstrap and Javascript. backend using node.js, express.js and EJS. database server using mongoDB and mongoose</p>
+
+          </div>
+          <div class="carousel-item carousel-padding">
+
             <h4><a class="proj-link" href="https://afternoon-meadow-28412.herokuapp.com/" target="_blank">Newsletter Signup form</a></h4>
             <img class="screenshots" src="images/screenshots/newsletter1.png" alt="newsletter1">
             <h5>Technologies used</h5>
             <p>I made the frontend of this project using HTML, CSS, Bootstrap and Javascript. backend using node.js and express.js</p>
+
           </div>
         </div>
         <a href="#carousel-1" class="carousel-control-prev" role="button" data-slide="prev">
+
           <span class="carousel-control-prev-icon"></span>
+
         </a>
         <a href="#carousel-1" class="carousel-control-next" role="button" data-slide="next">
+
           <span class="carousel-control-next-icon"></span>
+
         </a>
 
       </div>
@@ -210,7 +270,8 @@
   <section id="contact-me">
 
     <div class="container-fluid">
-      <a href="mailto:khizarhashmi119@gmail.com"><button class="btn btn-dark" type="button" name="button"><i class="fas fa-envelope"></i>  Contact Me</button></a>
+
+      <a href="mailto:khizarhashmi119@gmail.com"><button class="btn btn-dark" type="button" name="button"><i class="fas fa-envelope"></i> Contact Me</button></a>
       <div class="footer">
 
         <a class="footer-link" target="_blank" href="https://github.com/khizarhashmi119"><i class="fab fa-github"></i></a>
