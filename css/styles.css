@@ -67,22 +67,6 @@ a {
   margin-top: 2.5rem;
 }
 
-
-@media (max-width: 696px) {
-  .amusement-park {
-    width: 100%;
-  }
-
-  .title-heading {
-    margin-top: 0;
-  }
-
-  .cloud-1, .cloud-2 {
-    position: static;
-    margin: 3rem auto;
-  }
-}
-
 #about-me {
   background-color: #f9d5bb;
   padding: 7% 15%;
@@ -148,6 +132,7 @@ a {
 }
 
 .carousel-padding {
+  height: 720px;
   padding: 1% 5% 6%;
 }
 
@@ -199,4 +184,28 @@ a {
   color: #f9d5bb;
   font-size: 0.6rem;
   margin-top: 3%;
+}
+
+@media (max-width: 696px) {
+  .amusement-park {
+    width: 100%;
+  }
+
+  .title-heading {
+    margin-top: 0;
+  }
+
+  .cloud-1, .cloud-2 {
+    position: static;
+    margin: 3rem auto;
+  }
+
+  .carousel-padding {
+    height: 500px;
+  }
+
+  .screenshots {
+    width: 95%;
+  }
+
 }
