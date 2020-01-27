@@ -127,6 +127,10 @@ a {
 }
 
 .list {
+  list-style-type: circle;
+}
+
+.list-items {
   margin: 1rem 0;
 }
 
