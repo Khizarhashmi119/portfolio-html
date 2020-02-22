@@ -36,7 +36,13 @@ a {
   font-size: 5.625rem;
 }
 
+.sub-heading {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 .btn-top {
+  border-radius: 50%;
   bottom: 20px;
   position: fixed;
   right: 20px;
@@ -82,7 +88,9 @@ a {
   margin: 0 0 2rem;
 }
 
-.about-me-h2 {
+.about-me-span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -98,6 +106,13 @@ a {
 .about-link:hover {
   color: #3c3d47;
   text-decoration: none;
+}
+
+.btn-download {
+  border-top-right-radius: 22% 72%;
+  border-bottom-right-radius: 22% 72%;
+  border-top-left-radius: 22% 72%;
+  border-bottom-left-radius: 22% 72%;
 }
 
 #my-skills {
@@ -123,7 +138,12 @@ a {
 }
 
 .card-header {
+  background-color: #f9d5bb;
   text-align: center;
+}
+
+.card-body {
+  background-color: #f9d5bbb9;
 }
 
 .list {
@@ -166,6 +186,7 @@ a {
 .screenshots {
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 65%;
   margin: 3%;
   width: 80%;
 }
@@ -186,11 +207,19 @@ a {
 }
 
 .footer-link:hover {
-  color: #000;
+  color: rgba(0, 0, 0, 0.589);
 }
+
+.btn-contact {
+  border-top-right-radius: 22% 72%;
+  border-bottom-right-radius: 22% 72%;
+  border-top-left-radius: 22% 72%;
+  border-bottom-left-radius: 22% 72%;
+} 
 
 .contact-p {
   color: #f9d5bb;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.7rem;
   margin-top: 3%;
 }
@@ -215,6 +244,7 @@ a {
   }
 
   .screenshots {
+    height: 30%;
     width: 95%;
   }
 }
