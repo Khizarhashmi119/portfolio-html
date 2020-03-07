@@ -3,50 +3,14 @@ html {
 }
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Nunito", serif;
   color: #3c3d47;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
-}
-
-a {
-  font-family: "Ubuntu", sans-serif;
-}
-
-#nav {
+#header {
   background-color: #d35656;
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-#home {
-  background-color: #d35656;
-  text-align: center;
-}
-
-.title-heading {
-  font-family: "Gochi Hand";
-  font-size: 5.625rem;
-}
-
-.sub-heading {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.btn-top {
-  border-radius: 50%;
-  bottom: 20px;
-  position: fixed;
-  right: 20px;
-  z-index: 3;
 }
 
 .navbar-img {
@@ -61,21 +25,31 @@ a {
   font-size: 1.4rem;
 }
 
-.cloud-1 {
-  left: 250px;
-  margin: 30px 0;
-  position: relative;
+#home {
+  background-color: #d35656;
+  text-align: center;
 }
 
-.cloud-2 {
-  bottom: 200px;
-  margin: 30px 0;
-  position: relative;
-  right: 20px;
+.title-heading {
+  font-family: "Quicksand";
+  font-size: 6vw;
+  font-weight: 900;
 }
 
-.amusement-park {
-  margin-top: 2.5rem;
+.sub-heading {
+  font-size: 2vw;
+}
+
+.title {
+  padding-top: 10%;
+}
+
+.svg-container {
+  padding: 5% 4%;
+}
+
+.svg {
+  width: 90%;
 }
 
 #about-me {
@@ -89,7 +63,6 @@ a {
 }
 
 .about-me-span {
-  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -100,11 +73,10 @@ a {
 
 .about-link {
   color: #3c3d47;
-  text-decoration: underline;
 }
 
 .about-link:hover {
-  color: #3c3d47;
+  color: #23272b;
   text-decoration: none;
 }
 
@@ -113,6 +85,19 @@ a {
   border-bottom-right-radius: 22% 72%;
   border-top-left-radius: 22% 72%;
   border-bottom-left-radius: 22% 72%;
+}
+
+.a-top {
+  border-radius: 50%;
+  bottom: 10px;
+  color: #3c3d47;
+  position: fixed;
+  right: 10px;
+  z-index: 3;
+}
+
+.a-top:hover {
+  color: #23272b;
 }
 
 #my-skills {
@@ -180,7 +165,8 @@ a {
 }
 
 .proj-link:hover {
-  color: #d35656;
+  color: #23272b;
+  text-decoration: none;
 }
 
 .screenshots {
@@ -197,46 +183,42 @@ a {
   text-align: center;
 }
 
-.footer {
-  padding: 3% 5% 0;
-}
-
-.footer-link {
-  color: #3c3d47;
-  margin: 2rem;
-}
-
-.footer-link:hover {
-  color: rgba(0, 0, 0, 0.589);
-}
-
 .btn-contact {
   border-top-right-radius: 22% 72%;
   border-bottom-right-radius: 22% 72%;
   border-top-left-radius: 22% 72%;
   border-bottom-left-radius: 22% 72%;
-} 
+}
+
+.links {
+  margin: 2rem 0;
+}
+
+.link {
+  color: #3c3d47;
+  margin: 2rem;
+}
+
+.link:hover {
+  color: #23272b;
+}
 
 .contact-p {
   color: #f9d5bb;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.7rem;
-  margin-top: 3%;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 696px) {
-  .amusement-park {
+  .home-image {
     width: 100%;
   }
 
   .title-heading {
-    margin-top: 0;
+    font-size: 15vw;
   }
 
-  .cloud-1,
-  .cloud-2 {
-    position: static;
-    margin: 3rem auto;
+  .sub-heading {
+    font-size: 6vw;
   }
 
   .carousel-padding {
